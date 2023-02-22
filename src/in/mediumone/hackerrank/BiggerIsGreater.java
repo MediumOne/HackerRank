@@ -2,9 +2,6 @@ package in.mediumone.hackerrank;
 
 import java.util.*;
 
-/**
- * This code works for smaller input. For input string of length 10 and above it results in OOME.
- */
 public class BiggerIsGreater {
 
     private static Map<String, List<String>> anagramStore = new HashMap<>();
